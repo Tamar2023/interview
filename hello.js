@@ -29,3 +29,5 @@ let myPromise = new Promise(function(myResolve, myReject) {
 let books
 
 console.log(books.s)
+
+console.log("hello")
