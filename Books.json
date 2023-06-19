@@ -1,0 +1,14 @@
+[
+    {
+        "code": 111,
+        "title": "book1",
+        "year": 2020,
+        "pages": 120
+    },
+    {
+        "code": 222,
+        "title": "book2",
+        "year": 1990,
+        "pages": 40
+    }
+]
