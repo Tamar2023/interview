@@ -11,6 +11,8 @@ div.appendChild(h1);
 const res= fetch("https://www.hebcal.com/converter?cfg=json&date=2023-06-28&g2h=1&strict=1", { method: "GET" });
 console.log(res);
 console.log("Hello to my mini project!!");
+console.log("Update develop branch!!");
+
 
 
 let myPromise = new Promise(function(myResolve, myReject) {
