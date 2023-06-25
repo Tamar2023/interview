@@ -13,7 +13,7 @@ console.log(res);
 console.log("Hello to my mini project!!");
 console.log("Update develop branch 1!!");
 console.log("Update develop branchv2!!");
-
+console.log("Update develop branch from main!!");
 
 
 let myPromise = new Promise(function(myResolve, myReject) {
