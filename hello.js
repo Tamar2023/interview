@@ -8,9 +8,8 @@ h1.innerText = "hello world from js";
 div.appendChild(h1);
 
 
-fetch("https://www.hebcal.com/converter?cfg=json&date=2023-06-28&g2h=1&strict=1", { method: "GET" });
-// .then(response => response.text())
-// .then(data => console.log(data));
+const res= fetch("https://www.hebcal.com/converter?cfg=json&date=2023-06-28&g2h=1&strict=1", { method: "GET" });
+console.log(res);
 
 
 let myPromise = new Promise(function(myResolve, myReject) {
